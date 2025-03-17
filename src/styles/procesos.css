@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    display: grid;
+    place-items: center; /* Centra tanto horizontal como verticalmente */
+    height: 100vh;
+    margin: 0;
+}
+
+.slider {
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 16 / 9;
+    height: 300px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 23px;
+}

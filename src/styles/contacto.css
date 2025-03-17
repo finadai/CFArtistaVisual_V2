@@ -1,0 +1,91 @@
+.contacto {
+    width: 50%; 
+    margin-left: 20px;
+    padding: 20px;
+    text-align: left; 
+  }
+  
+  .contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical; 
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #E6D5B8;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #be8c6b;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    justify-content: center; 
+    text-align: right;
+    margin-left: 1000px;
+    margin-top: -400px;
+    width: 50px;
+    }
+  
+  .icono i {
+    font-size: 5rem; 
+    color: #000; 
+    transition: color 0.3s ease;
+  }
+  
+  .icono:hover i {
+    color: #be8c6b; 
+  }
+  
+  .icono span {
+    font-size: 1.1rem; 
+    color: #000;
+    text-decoration: none;
+  }
+
+  .icono a {
+    text-decoration: none; 
+  }
