@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     
     display: grid;
-    place-items: center; /* Centra tanto horizontal como verticalmente */
+    place-items: center;
     height: 100vh;
     margin: 0;
 }
